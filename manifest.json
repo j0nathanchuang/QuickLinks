@@ -1,0 +1,15 @@
+{
+ "name": "QuickLinks",
+ "version": "1.0",
+ "description": "Are you tired of having to look up all of your profile urls when applying for jobs? Save the links that job apps frequently ask you for.",
+ "permissions": ["activeTab", "tabs", "http://*/*", "https://*/*"],
+ "browser_action": {
+   "default_popup": "popup.html",
+   "default_title": "QuickLinks",
+   "default_icon": "icon.png"
+ },
+ "background": {
+      "scripts": ["popup.js"]
+  },
+ "manifest_version": 2
+}
